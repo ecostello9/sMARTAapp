@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8046217523650584009E70FC /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046217423650584009E70FC /* Stop.swift */; };
+		80462178236505CB009E70FC /* RedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80462176236505CB009E70FC /* RedLine.swift */; };
+		80462179236505CB009E70FC /* TrainStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80462177236505CB009E70FC /* TrainStop.swift */; };
+		806A76A82364C228002E05D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A76A72364C228002E05D6 /* AppDelegate.swift */; };
+		806A76AA2364C228002E05D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A76A92364C228002E05D6 /* SceneDelegate.swift */; };
+		806A76AC2364C228002E05D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A76AB2364C228002E05D6 /* ViewController.swift */; };
+		806A76AF2364C228002E05D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806A76AD2364C228002E05D6 /* Main.storyboard */; };
+		806A76B22364C228002E05D6 /* sMARTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 806A76B02364C228002E05D6 /* sMARTA.xcdatamodeld */; };
+		806A76B42364C22A002E05D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806A76B32364C22A002E05D6 /* Assets.xcassets */; };
+		806A76B72364C22A002E05D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806A76B52364C22A002E05D6 /* LaunchScreen.storyboard */; };
+		80898D072364C5D700FF2CFE /* inProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80898D062364C5D700FF2CFE /* inProgressViewController.swift */; };
+		80898D092364C68600FF2CFE /* ArrivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80898D082364C68600FF2CFE /* ArrivedViewController.swift */; };
+		80CD302E2364DCC600157EB9 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD302D2364DCC600157EB9 /* EmergencyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8046217423650584009E70FC /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stop.swift; path = ../../../Stop.swift; sourceTree = "<group>"; };
+		80462176236505CB009E70FC /* RedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RedLine.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/RedLine.swift"; sourceTree = "<group>"; };
+		80462177236505CB009E70FC /* TrainStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainStop.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/TrainStop.swift"; sourceTree = "<group>"; };
+		806A76A42364C228002E05D6 /* sMARTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sMARTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806A76A72364C228002E05D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		806A76A92364C228002E05D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		806A76AB2364C228002E05D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		806A76AE2364C228002E05D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806A76B12364C228002E05D6 /* sMARTA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sMARTA.xcdatamodel; sourceTree = "<group>"; };
+		806A76B32364C22A002E05D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806A76B62364C22A002E05D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806A76B82364C22A002E05D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80898D062364C5D700FF2CFE /* inProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inProgressViewController.swift; sourceTree = "<group>"; };
+		80898D082364C68600FF2CFE /* ArrivedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivedViewController.swift; sourceTree = "<group>"; };
+		80CD302D2364DCC600157EB9 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806A76A12364C228002E05D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806A769B2364C228002E05D6 = {
+			isa = PBXGroup;
+			children = (
+				806A76A62364C228002E05D6 /* sMARTA */,
+				806A76A52364C228002E05D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806A76A52364C228002E05D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806A76A42364C228002E05D6 /* sMARTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806A76A62364C228002E05D6 /* sMARTA */ = {
+			isa = PBXGroup;
+			children = (
+				80898D062364C5D700FF2CFE /* inProgressViewController.swift */,
+				806A76A72364C228002E05D6 /* AppDelegate.swift */,
+				806A76A92364C228002E05D6 /* SceneDelegate.swift */,
+				806A76AB2364C228002E05D6 /* ViewController.swift */,
+				8046217423650584009E70FC /* Stop.swift */,
+				80462176236505CB009E70FC /* RedLine.swift */,
+				80462177236505CB009E70FC /* TrainStop.swift */,
+				806A76AD2364C228002E05D6 /* Main.storyboard */,
+				80CD302D2364DCC600157EB9 /* EmergencyViewController.swift */,
+				80898D082364C68600FF2CFE /* ArrivedViewController.swift */,
+				806A76B32364C22A002E05D6 /* Assets.xcassets */,
+				806A76B52364C22A002E05D6 /* LaunchScreen.storyboard */,
+				806A76B82364C22A002E05D6 /* Info.plist */,
+				806A76B02364C228002E05D6 /* sMARTA.xcdatamodeld */,
+			);
+			path = sMARTA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806A76A32364C228002E05D6 /* sMARTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806A76BB2364C22A002E05D6 /* Build configuration list for PBXNativeTarget "sMARTA" */;
+			buildPhases = (
+				806A76A02364C228002E05D6 /* Sources */,
+				806A76A12364C228002E05D6 /* Frameworks */,
+				806A76A22364C228002E05D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sMARTA;
+			productName = sMARTA;
+			productReference = 806A76A42364C228002E05D6 /* sMARTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806A769C2364C228002E05D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Declan Nelson";
+				TargetAttributes = {
+					806A76A32364C228002E05D6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 806A769F2364C228002E05D6 /* Build configuration list for PBXProject "sMARTA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806A769B2364C228002E05D6;
+			productRefGroup = 806A76A52364C228002E05D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806A76A32364C228002E05D6 /* sMARTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806A76A22364C228002E05D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806A76B72364C22A002E05D6 /* LaunchScreen.storyboard in Resources */,
+				806A76B42364C22A002E05D6 /* Assets.xcassets in Resources */,
+				806A76AF2364C228002E05D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806A76A02364C228002E05D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80898D092364C68600FF2CFE /* ArrivedViewController.swift in Sources */,
+				80CD302E2364DCC600157EB9 /* EmergencyViewController.swift in Sources */,
+				80462179236505CB009E70FC /* TrainStop.swift in Sources */,
+				806A76AC2364C228002E05D6 /* ViewController.swift in Sources */,
+				80462178236505CB009E70FC /* RedLine.swift in Sources */,
+				80898D072364C5D700FF2CFE /* inProgressViewController.swift in Sources */,
+				8046217523650584009E70FC /* Stop.swift in Sources */,
+				806A76A82364C228002E05D6 /* AppDelegate.swift in Sources */,
+				806A76AA2364C228002E05D6 /* SceneDelegate.swift in Sources */,
+				806A76B22364C228002E05D6 /* sMARTA.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		806A76AD2364C228002E05D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806A76AE2364C228002E05D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806A76B52364C22A002E05D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806A76B62364C22A002E05D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806A76B92364C22A002E05D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = coolID;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806A76BA2364C22A002E05D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = coolID;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806A76BC2364C22A002E05D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3RSPN6NH9;
+				INFOPLIST_FILE = sMARTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.sMARTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806A76BD2364C22A002E05D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3RSPN6NH9;
+				INFOPLIST_FILE = sMARTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.sMARTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806A769F2364C228002E05D6 /* Build configuration list for PBXProject "sMARTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806A76B92364C22A002E05D6 /* Debug */,
+				806A76BA2364C22A002E05D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806A76BB2364C22A002E05D6 /* Build configuration list for PBXNativeTarget "sMARTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806A76BC2364C22A002E05D6 /* Debug */,
+				806A76BD2364C22A002E05D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		806A76B02364C228002E05D6 /* sMARTA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				806A76B12364C228002E05D6 /* sMARTA.xcdatamodel */,
+			);
+			currentVersion = 806A76B12364C228002E05D6 /* sMARTA.xcdatamodel */;
+			path = sMARTA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 806A769C2364C228002E05D6 /* Project object */;
+}
